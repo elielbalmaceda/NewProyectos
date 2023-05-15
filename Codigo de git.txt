@@ -1,0 +1,7 @@
+-git status para ver cambios realizados
+-git init para abrir un bash en las carpetas
+-git add
+-git add nombreArchivo
+-git commit -m "comentario" para subir con un mensaje de los cambios realizados
+-git remote add origin repositorioremoto.git
+-git push origin master para subir los cambios
