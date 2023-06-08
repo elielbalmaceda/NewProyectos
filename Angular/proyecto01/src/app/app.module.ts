@@ -3,23 +3,21 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-
-import { ClientesModule } from './clientes/clientes.module';
-import { InicioComponent } from './clientes/inicio/inicio.component';
-
+import { JuegodadosComponent } from './juegodados/juegodados.component';
+import { DadoComponent } from './dado/dado.component';
+import { AcercadeComponent } from './acercade/acercade.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InicioComponent
+    JuegodadosComponent,
+    DadoComponent,
+    AcercadeComponent
   ],
-
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    ClientesModule,
+    AppRoutingModule
   ],
-  
   providers: [],
   bootstrap: [AppComponent]
 })
