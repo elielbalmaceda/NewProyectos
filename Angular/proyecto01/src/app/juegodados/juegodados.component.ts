@@ -15,6 +15,10 @@ constructor(){
   this.valor2 = this.retornarAleatorio();
   this.valor3 = this.retornarAleatorio();
 }
+/*Agregamos la funcion de rotornarAleatorio() 
+//que nos renotorne a la funcion Math.random(), 
+que lo que hace es elegir un numero random segun los numeros que
+ les especifiquemos, en este caso hasta 6 y que arranque del valor numero 1, ya que el dado no contiene 0*/
 retornarAleatorio(){
   return Math.trunc(Math.random()* 6 ) + 1;
 }

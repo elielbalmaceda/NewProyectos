@@ -1,6 +1,6 @@
 //Cree el componente con el comando ng
 
-import { NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';  
 import { RouterModule, Routes } from '@angular/router';
 
 import {JuegodadosComponent} from './juegodados/juegodados.component';
